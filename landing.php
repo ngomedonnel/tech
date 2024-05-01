@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="container1">
-    <div id="title"><h1  class="tit">WELCOME TO TECH TRIALBLAZERS</h1></div>
+    <div id="title"><h1  class="tit">TECHTRAILBLAZERS NIGHTFALL CODING <br> CHALLENGES</h1></div>
     <div id="P"><p>
       For all those who are ready to join our coding challenge, your are welcome to get started by <br>clicking the button below
     </p></div>
@@ -33,10 +33,10 @@
         <input name="Password" type="Password" required >
       </div>
       <div class="ver">
-        <button type="submit">login</button>
+        <button id="login" type="submit">Login</button>
       </div>
     </form>  
-    <button id='start'>start challenge</button></div>
+    <button id='start'>Start Challenge</button></div>
   </div>
 
 <script>
