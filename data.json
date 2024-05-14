@@ -1,0 +1,37 @@
+{
+  "userName": "JohnDoe",
+  "timeLeft": "1:23:45", 
+  "connectedParticipants": 12,
+  "questions": {
+    "algorithms": [
+      {
+        "questionId": "alg1",
+        "content": "Describe an algorithm to solve..."
+        
+      }
+      
+    ],
+    "frontend": [
+      {
+        "questionId": "front1",
+        "content": "What is a closure in JavaScript?",
+        "codeSnippets": {
+          "vanilla": "function example() { ... }",
+          "jQuery": "$(document).ready(function(){ ... })"
+        }
+      }
+      
+    ],
+    "backend": [
+      {
+        "questionId": "back1",
+        "content": "How do you set up a middleware in Express?",
+        "codeSnippets": {
+          "php": "<?php // PHP code for middleware setup ?>",
+          "node": "app.use((req, res, next) => { ... })"
+        }
+      }
+      
+    ]
+  }
+}
